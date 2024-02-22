@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+/* nav----------- */
+/* Estilos para o cabeçalho */
+header {
+    position: fixed;
+    width: 100%; 
+    z-index: 1000;
+}
+
+/* Estilos para a barra de navegação dentro do cabeçalho */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    /* box-shadow: 0 1px 3px rgb(19, 19, 82);  */
+}
+
+/* Estilos para o título do cabeçalho */
+header nav h2{
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/* Estilos para a lista de navegação */
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    color: aliceblue;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Estilos para os itens da lista de navegação */
+header nav ul li {
+    margin-right: 50px;
+    cursor: pointer;
+    text-align: center;
+    display: inline; /* Exibe os itens da lista em linha */
+}
+
+/* Estilos para os links da lista de navegação */
+header nav a{
+    color: white; 
+    text-decoration: none; 
+}
+
+/* Estilos quando o mouse está sobre os links da lista de navegação */
+header nav a:hover{
+    font-weight: bold;
+}
+
+
+/* banner home --------------------------*/
+
+.banner {
+    width: 100%; 
+    height: 200px; 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    z-index: 0;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+
+/*login --------------------------------------*/
+.container {
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px; 
+    text-align: center;
+}
+
+.box-login {
+    max-width: 400px;
+    max-height: 700px;
+    margin: 200px auto;
+    padding: 35px 10px 5px 20px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid transparent;
+    text-align: center;
+    color: gray;
+    
+}
+.box-login h2 {
+    display: flex;
+    margin-left: 50px;
+    color: #55619D;
+    margin-bottom: 30px;
+}
+
+.box-login h2:hover {
+    color: rgb(19, 19, 82);
+    margin-bottom: 40px;
+}
+.box-login h3 {
+    margin-bottom: 40px;
+}
+
+.box-login p {
+    display: flex;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+.form label {
+    display: flex;
+    margin-left: 50px;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.form button {
+    padding: 10px 50px;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    background-color: #55619D;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form button:hover {
+    background-color: #413C6D;
+    font-weight: bold;
+}
+
+.button-respostas{
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(100, 134, 185);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
